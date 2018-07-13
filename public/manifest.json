@@ -1,6 +1,6 @@
 {
-  "short_name": "My First PWA",
-  "name": "My First Progressive Web App",
+  "short_name": "NEWTS",
+  "name": "Newts Offline Notes",
   "icons": [
     {
         "src": "/android-chrome-192x192.png",
