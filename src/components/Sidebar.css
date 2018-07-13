@@ -1,0 +1,86 @@
+.Sidebar {
+  z-index: 1;
+  margin: .5rem;
+  display: flex;
+
+  /* flex-grow: 1; */
+  /* align-content: space-between; */
+  /* position: absolute; */
+  /* align-self: center; */
+  max-width: 800px;
+  /* max-width: 200px; */
+  /* -webkit-box-shadow: 5px 0px 5px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 5px 0px 5px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 5px 0px 5px 0px rgba(0, 0, 0, 0.25); */
+}
+
+/* .Sidebar-create-note-button-wrapper { */
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* align-items: left;
+  justify-content: left; */
+  /* margin-top: 30px; */
+/* } */
+
+/* .Sidebar-list-item {
+  cursor: pointer;
+  word-wrap: break-word;
+  word-break: break-all;
+} */
+
+.Sidebar-list-item-active {
+  font-weight: bold;
+}
+
+.list {
+  /* margin-top: 30px; */
+  flex-grow: 1;
+  /* justify-content: center; */
+}
+
+.newButton {
+  /* border-bottom: 10px solid black; */
+  font-family: 'Courier New', Courier, monospace;
+  margin-left: 3px;
+}
+
+.ui.selection.dropdown .menu {
+  max-height:100vh;
+}
+
+.ui.selection.dropdown .menu>.item {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.ui.list, ol.ui.list, ul.ui.list {
+  margin-top: 0;
+  font-size: 1rem;
+
+}
+
+.ui.dropdown {
+  text-align: center;
+}
+.ui.list:last-child, ol.ui.list:last-child, ul.ui.list:last-child {
+  border-top: 10px solid grey;
+  border-radius: 50px 50px 0 0;
+  min-height: 67px;
+
+}
+
+.ui.large.button, .ui.large.buttons .button, .ui.large.buttons .or {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: italic;
+  font-size: 1rem;
+  border-top: 10px solid grey;
+  border-radius: 50px 50px 0 0;
+  text-align: end;
+  min-height: 4.75rem;
+}
+
+.ui.small.image, .ui.small.images .image, .ui.small.images img, .ui.small.images svg {
+  max-height: 68px;
+  max-width: 68px;
+  margin-right: 2px;
+}
