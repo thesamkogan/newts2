@@ -76,7 +76,7 @@
   border-top: 10px solid grey;
   border-radius: 50px 50px 0 0;
   text-align: end;
-  min-height: 4.75rem;
+  text-align: center;
 }
 
 .ui.small.image, .ui.small.images .image, .ui.small.images img, .ui.small.images svg {
